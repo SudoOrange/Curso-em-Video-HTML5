@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+section#conteudo{
+    width: 1000px;
+    margin: auto;
+}
+
+iframe#frame-spec{
+    width: 350px;
+    height: 280px;
+    border: none;
+    overflow: hidden;
+}
+/* comando css para esconder a barra de rolagem não funcionou, o problema foi resolvido adicionando o comando
+scrolling="no" na tag <iframe> do documento specs.html
+
+iframe#frame-spec::-webkit-scrollbar{
+    display: none;
+}
+*/
